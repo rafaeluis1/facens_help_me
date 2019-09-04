@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
         padding: 5px 20px;
-        color: #000;
+        color: #4d4d4d;
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
@@ -654,7 +654,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #131517;
+    background: #b3b3b3;
     opacity: .55;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
@@ -1141,4 +1141,26 @@ h1, h2, h3, h4, h5,
 a
 {
   color: #027ec7;
+}
+
+.logo-facens
+{
+  width: 170px;
+  height: 80px;
+  position: absolute;
+  left: -95px;
+  top: -40px;
+}
+
+#product-name
+{
+  position: absolute;
+  left: 70px;
+  top: -22.7px;
+  font-size: 28.5px;
+}
+
+.shrink #product-name
+{
+  color: #4d4d4d;
 }
