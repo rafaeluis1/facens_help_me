@@ -628,8 +628,9 @@ h1, h2, h3, h4, h5,
     color: #fff;
     margin-bottom: 1.5rem; }
   .intro-section p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.1rem; }
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.15rem;
+    font-weight: 500; }
 
 .img-absolute {
   position: absolute;
@@ -675,7 +676,8 @@ h1, h2, h3, h4, h5,
 .form-box {
   padding: 40px;
   background: #fff;
-  border-radius: 7px; }
+  border-radius: 7px;
+}
 
 .site-section {
   padding: 4em 0;
@@ -1015,7 +1017,7 @@ h1, h2, h3, h4, h5,
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
-  top: 0;
+  top: -20px;
   position: relative; }
   .course .course-inner-text {
     position: relative;
@@ -1163,4 +1165,29 @@ a
 .shrink #product-name
 {
   color: #4d4d4d;
+}
+
+.my-4
+{
+  margin-top: -1.5rem !important;
+}
+
+#div-1, #div-5, #div-6
+{
+  padding-bottom: 2.06rem !important;
+}
+
+#div-2, #div-4
+{
+  padding-bottom: 0.3rem !important;
+}
+
+#div-3
+{
+  padding-bottom: 2.1rem !important;
+}
+
+.img-box
+{
+  height: 201.8px;
 }
