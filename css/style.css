@@ -721,7 +721,7 @@ h1, h2, h3, h4, h5,
 
 .section-title {
   font-size: 3rem;
-  color: #000;
+  color: #4D4D4D;
   margin-bottom: 1.8rem;
   font-weight: 900; }
   @media (max-width: 991.98px) {
@@ -1190,4 +1190,11 @@ a
 .img-box
 {
   height: 201.8px;
+}
+
+.div-res
+{
+  position: absolute;
+  left: 750px;
+  top: 490px;
 }
