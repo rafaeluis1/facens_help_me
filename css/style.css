@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5,
       color: #000; }
 
 .site-mobile-menu {
-  width: 375px;
+  width: 425px;
   position: fixed;
   right: 0;
   z-index: 2000;
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5,
   .offcanvas-menu .site-mobile-menu {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
-    transform: translateX(-200%); }
+    transform: translateX(-176%); }
   .site-mobile-menu .site-mobile-menu-header {
     width: 100%;
     float: left;
@@ -1202,4 +1202,19 @@ a
 .aluno-nome
 {
   margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 812px)
+{
+  .logo-facens
+  {
+    left: -20px;
+  }
+
+  #product-name
+  {
+    width: 115px;
+    position: absolute;
+    left: 145px;
+  }
 }
