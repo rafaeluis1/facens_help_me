@@ -1204,6 +1204,11 @@ a
   margin-bottom: 0rem;
 }
 
+.mobile-display
+{
+  display: none;
+}
+
 @media screen and (max-width: 812px)
 {
   .logo-facens
@@ -1233,5 +1238,39 @@ a
   .mb-4
   {
     top: 35px;
+  }
+
+  #cadastro-mobile
+  {
+    margin-top: 5px;
+  } 
+
+  .owl-carousel
+  {
+    display: none !important;
+  }
+
+  .mobile-display
+  {
+    display: block;
+  }
+  
+  .course
+  {
+    width: 345px;
+    position: relative;
+    left: 15px;
+    height: 17% !important;
+    margin-bottom: 20px;
+  }
+
+  .img-box
+  {
+    width: 345px;
+  }
+
+  #right-next-btn
+  {
+    display: none;
   }
 }
