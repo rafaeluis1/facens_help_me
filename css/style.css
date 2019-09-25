@@ -1187,8 +1187,15 @@ a
   padding-bottom: 2.1rem !important;
 }
 
+.func-box
+{
+  width: 366.95px;
+  height: 432.39px;
+}
+
 .img-box
 {
+  width: 366.95px;
   height: 201.8px;
 }
 
@@ -1245,7 +1252,7 @@ a
     margin-top: 5px;
   } 
 
-  .owl-carousel
+  .func-div
   {
     display: none !important;
   }
